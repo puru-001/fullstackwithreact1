@@ -1,0 +1,295 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+#nav{
+	background-color: #282828;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+	width: 100%;
+}
+#nav .menu{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+
+}
+#nav .menu a{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 8px;
+	position: relative;
+	
+}
+#nav .menu a:hover{
+	background: #000;
+	border-radius: 8px;
+	transform: scaleX(1);
+	transition: ease-in-out 0.3s;
+}
+#homesection{
+	background: #fff;
+	width: 100%;
+	height: 640px;
+}
+
+#homesection article{
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	margin-left: -55px;
+}
+#homesection figure{
+	margin-top: 185px;
+	margin-left: 130px;
+}
+#homesection img{
+	border-radius: 100%;
+}
+#homesection header{
+	margin: 0px;
+}
+#homesection article header h1{
+	font-size:35px;
+	font-weight: 300;
+	color: #bcbcbc;
+}
+#homesection article header h1 strong{
+	font-weight: 700;
+	color: #3e3e3e ;
+}
+#homesection main{
+	margin-top: 95px;
+}
+#homesection article p{
+	color: #8f8f8f;
+}
+#homesection{
+	font-size: 1.5em;
+	line-height: 1.75em;
+}
+#homesection button{
+	background: #3aa6cf;
+	color: #fff;
+    margin: 0;
+    padding: 20px 60px;
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+#middlesection{
+	background: #f3f3f3;
+	width: 100%;
+	height: 950px;
+	border-bottom: 2px solid #cccc;
+}
+#middlesection main{
+	text-align: center;
+	padding-top: 50px;
+}
+#middlesection .middle header h1{
+	font-size: 30px;
+	font-weight: 900;
+	color: #3e3e3e;
+}
+#middlesection .box{
+	display: flex;
+	box-sizing: border-box;
+	padding: 70px;
+}
+#middlesection .leftbox{
+	background: white;
+	border: 1px solid #d9d9d9;
+	margin: 15px;
+}
+#middlesection .leftbox span i{
+	padding: 40px;
+}
+#middlesection .middlebox{
+	background: white;
+	border: 1px solid #d9d9d9;
+	margin: 15px;
+}
+#middlesection .box .middlebox span i{
+	padding: 40px;
+}
+#middlesection .rightbox{
+	background: white;
+	border: 1px solid #d9d9d9;
+	margin: 15px;
+}
+#middlesection .rightbox span i{
+	padding: 40px;
+}
+#middlesection div h1{
+	font-weight: bold;
+	font-size: 25px;
+}
+#middlesection div p{
+	color: #8888;
+	line-height: 35px;
+}
+#middlesection footer{
+	text-align: center;
+	margin-top: -45px;
+}
+#middlesection footer p{
+	color: #8888;
+	font-size: 20px;
+}
+#middlesection footer button{
+	color: white;
+    background: #3ea5cf;
+    border: none;
+    padding: 25px 50px;
+    font-size: 20px;
+    font-weight: 600;
+	border-radius: 8px;
+	cursor: pointer;
+}
+#portfolio{
+	width: 100%;
+	height: 1280px;
+	background: #f4f4f4;
+	margin-top: -35px;
+}
+#portfolio article main div{
+	text-align: center;
+}
+#portfolio article main div h1{
+	font-weight: 700;
+	color: #3e3e3e;
+	font-size: 35px;
+}
+#portfolio article main div p{
+	color: #9696b8;
+	font-size: 20px;
+}
+
+#portfolio .topline{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+#portfolio .bottomline{
+	display: flex;
+	justify-content: center;
+}
+#portfolio .topline .left1{
+   border: 1px solid #d9d9d9;
+   margin: 20px;
+   text-align: center;
+   
+}
+#portfolio .topline .middle1{
+	border: 1px solid #d9d9d9;
+	margin: 20px;
+	text-align: center;
+	
+}
+#portfolio .topline .right1{
+	border: 1px solid #d9d9d9;
+	margin: 20px;
+	text-align: center;
+
+}
+#portfolio .bottomline .left2{
+	border: 1px solid #d9d9d9;
+	margin: 20px;
+	text-align: center;
+}
+#portfolio .bottomline .middle2{
+	border: 1px solid #d9d9d9;
+	margin: 20px;
+	text-align: center;
+}
+#portfolio .bottomline .right2{
+	border: 1px solid #d9d9d9;
+	margin: 20px;
+	text-align: center;
+}
+#portfolio footer{
+	text-align: center;
+}
+#portfolio footer p{
+ font-size: 1.25em;
+ color: #8888;
+ margin-top: 45px;
+}
+#portfolio footer button{
+	color: #ffff ;
+	background: #3ea6cf;
+	border: none;
+	border-radius: 8px;
+	padding: 19px 48px 25px;
+	font-size: 30px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+#formsection{
+	width: 100%;
+	height: 600px;
+	background: #2e2e2e;
+	margin-top: -25px;
+}
+#formsection main h1{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+}
+#formsection main p{
+	text-align: center;
+	color: #8a8a8a;
+	font-size: 18px;
+}
+#formsection form{
+	text-align: center;
+	display: grid;
+}
+#formsection form span{
+	display: block;
+}
+#formsection form input{
+	border: none;
+    background: #282828;
+}
+#formsection form textarea{
+	border: none;
+    background: #282828;
+}
+
+
+
+
+
+
+#formsection footer div h1{
+	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
+	letter-spacing: 0.12em;
+}
+.socialmedia {
+	display: flex;
+	justify-content:center;
+}
+.socialmedia a{
+	padding: 10px;
+	color: #383838;
+}
+.footersection{
+	display: flex;
+	justify-content: center;
+}
+.footersection p{
+	padding: 10px;
+}
